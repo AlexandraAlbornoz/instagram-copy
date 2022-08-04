@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: center;
+}
+
+.fondo {
+    background-color: antiquewhite;
+}
+
+#encabezado img {
+    margin: 20 px;
+    box-sizing: content-box;
+    width: 200px;
+    height: 100px;
+}
+
+.cajita-fondo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(149, 72, 108);
+}
+
+.cajita-post {
+    background-color: aliceblue;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-around;
+
+    width: 50px;
+    height: 50px;
+}
+
+.post-image{
+    height: 400px;
+}
+
+.post-image img {
+    width: 100%;
+    object-fit: cover
+}
+
+.button-box{
+    width: 400px;
+background:aliceblue
+}
+
+.botones{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px;
+   
+  
+}
+
+.button-right{
+    display: flex;
+    align-items: center;
+}
+
+.button-left{
+    display: flex;
+    align-items: center;
+}
+
+.button-left svg{
+    margin-right: 10px;
+}
+
+.description-box{
+    display:flex;
+    justify-content:flex-start;
+    padding: 0px 10px 10px 10px;
+}
+
+.description p{
+    font-weight: 700;
+
+  
+}
+
+
